@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Orelega+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>PetShop</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./imagens/Vector.png" alt="pata de cachorro vetorizada laranja">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Agendamentos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section class="w-75 p-5 mx-auto">
+        <div class="align-items-center d-lg-flex justify-content-center">
+            <div>
+                <h2 class="text-start">Boas vindas ao site dos pets</h2>
+                <p class="mt-1">Banho, tosa e tudo que seu pet merece!</p>
+            </div>
+            <div class="col-6  w-50">
+                <img src="./imagens/Family-pana.png" alt="familia formada por dois adultos, duas crianças e um cachorro">
+            </div>
+        </div>
+    </section>
+    <section class="text-center w-75 p-2 mx-auto">
+        <h2>Sobre nós</h2>
+        <div class="d-flex p-1 lh-base">
+            <img src="./imagens/Veterinary-pana 1.png" alt="" >
+            <p>Fundada em 2017 por um casal apaixonado por animais e com vasta experiência na área, a petshop Site dos Pets nasceu com o objetivo de oferecer um serviço completo e de qualidade para o cuidado e bem-estar dos animais de estimação. Impulsionados pela falta de opções especializadas na região, eles viram a oportunidade de preencher essa lacuna e fornecer um ambiente acolhedor para tutores e seus amiguinhos peludos.</p>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h2>Serviços</h2>
+            <ul class="row d-flex align-items-center list-unstyled text-center " >
+                <li class="col fundosservicos">
+                    <img src="./imagens/imagem-banho.png" alt="" class="img-fluid" >
+                    <h3>Banho</h3>
+                </li>
+                <li class="col fundosservicos">
+                    <img src="./imagens/imagem-tosa.png" alt=""class="img-fluid" >
+                    <h3>Tosa</h3>
+                </li>
+                <li class="col fundosservicos">
+                    <img src="./imagens/imagem-consulta.png" alt=""class="img-fluid" >
+                    <h3>Consultas</h3>
+                </li>
+                <li class="col fundosservicos">
+                    <img src="./imagens/imagem-adoção.png" alt=""class="img-fluid" >
+                    <h3>Adoção</h3>
+                </li>
+                <li class="col fundosservicos">
+                    <img src="./imagens/imagem-creche.png" alt=""class="img-fluid" >
+                    <h3>Creche</h3>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section >
+            <h2>Agende seu atendimento!</h2>
+                <div class="d-flex">
+                    <div class="row">
+                        <div class="col-1">
+                            <form action="">
+                                <label for="nome">Nome Completo</label>
+                                <input type="text" name="nome" id="nome">
+        
+                                <label for="telefone">Telefone</label>
+                                <input type="tel" name="telefone" id="telefone">
+        
+                                <label for="atendimento">Tipo de atendimento</label>
+                                <input type="checkbox" name="banho" id="banho"> Banho
+                                <input type="checkbox" name="tosa" id="tosa"> Tosa
+                                <input type="checkbox" name="consulta" id="consulta"> Consulta
+                                <input type="checkbox" name="adocao" id="adocao"> Adoção
+                                <input type="checkbox" name="creche" id="creche"> Creche
+        
+                                <input type="submit" value="Enviar">
+                            </form>
+                        </div>
+                    
+                </div>
+            <div class="col-2 w-50 ms-auto my-5">
+                <table class="table table-bordered">
+                    <thead class="table-secondary">
+                        <tr>
+                            <th>Dia da semana</th>
+                            <th>Horários</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda-feira</td>
+                            <td>14:00 às 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Terça-feira</td>
+                            <td>08:00 às 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta-feira</td>
+                            <td>08:00 às 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta-feira</td>
+                            <td>08:00 às 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta-feira</td>
+                            <td>08:00 às 14:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+                </div>
+                
+    </section>
+<footer class="bg-dark text-center d-flex justify-content-around mt-5">
+    <p class="rodape mt-3">
+        2023 @ Desenvolvido por Bruna Baria | Projeto fictício sem fins comerciais
+    </p>
+    <ul class="list-unstyled d-flex gap-2 mt-2">
+        <li>
+           <img src="./imagens/whatsapp.png" alt="icone do whatsapp">
+        </li>
+        <li>
+            <img src="./imagens/instagram.png" alt="icone do instagram">
+        </li>
+        <li>
+            <img src="./imagens/linkedin.png" alt="icone do linkedin">
+        </li>
+    </ul>
+</footer>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
+</body>
+</html>

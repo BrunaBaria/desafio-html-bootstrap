@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFF;
+}
+h2{
+    font-family: 'Orelega One';
+    color: #1245ec;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 47px;
+}
+
+p{
+    font-family: 'Inter';
+    color:#6C757D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 47px;
+}
+
+.rodape{
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Coda;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.fundosservicos{
+    background-color: #6C757D;
+    color: #FFF;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 20px;
+    height: 240px;
+    width: 300px;
+    
+}
