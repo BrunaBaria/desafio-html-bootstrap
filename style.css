@@ -9,7 +9,7 @@ body{
 }
 h2{
     font-family: 'Orelega One';
-    color: #1245ec;
+    color: #007BFF;
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
     font-size: 48px;
@@ -50,3 +50,35 @@ p{
     height: 240px;
     width: 300px;
 }
+ .Sobre{
+    width: 1440px;
+    height: 602px;
+    flex-shrink: 0;
+    
+ }
+ .Sobre h2{
+    color: #007BFF;
+    text-align: center;
+    font-family: Orelega One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 47px; 
+ }
+
+ .Sobre p{
+    color: #6C757D;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.5px;
+    margin-top: 100px;
+ }
+
+ #sobre{
+    display: flex;
+    padding: 100px;
+ }
