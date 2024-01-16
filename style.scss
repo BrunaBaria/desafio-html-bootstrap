@@ -1,5 +1,3 @@
-@use "variaveis";
-
 * {
   margin: 0;
   padding: 0;
@@ -7,44 +5,44 @@
 }
 
 body {
-  background-color: variaveis.$cor-branca;
+  background-color: #FFFFFF;
 }
 
 h2 {
   font-family: "Orelega One";
-  color:variaveis.$cor-azul-titulos;
+  color: #007BFF;
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 48px;
-  font-style: variaveis.$fonte-style-normal;
-  font-weight: variavel.$fonte-regular;
+  font-style: normal;
+  font-weight: 400;
   line-height: 47px;
 }
 
 p {
   font-family: "Inter";
-  color:variaveis.$cor-cinza-textos;
+  color: #6C757D;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 20px;
-  font-style: variaveis.$fonte-style-normal;
-  font-weight: variavel.$fonte-regular;
+  font-style: normal;
+  font-weight: 400;
   line-height: 47px;
 }
 
 .rodape {
-  color: variaveis.$cor-branca;
+  color: #FFF;
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
   font-family: Coda;
   font-size: 12px;
-  font-style: variaveis.$fonte-style-normal;
-  font-weight: variavel.$fonte-regular;
+  font-style: normal;
+  font-weight: 400;
   line-height: 23px;
 }
 
 .fundosservicos {
-  background-color: variaveis.$cor-cinza-textos;
-  color:variaveis.$cor-branca;
+  background-color: #6C757D;
+  color: #FFF;
   text-align: center;
   align-items: center;
   padding: 40px;
@@ -61,22 +59,22 @@ p {
 }
 
 .Sobre h2 {
-  color: variaveis.$cor-azul-titulos;
+  color: #007BFF;
   text-align: center;
   font-family: Orelega One;
   font-size: 48px;
-  font-style: variaveis.$fonte-style-normal;
-  font-weight: variavel.$fonte-regular;
+  font-style: normal;
+  font-weight: 400;
   line-height: 47px;
 }
 
 .sobre p {
-  color: variaveis.$cor-cinza-textos;
+  color: #6C757D;
   text-align: center;
   font-family: Inter;
   font-size: 18px;
-  font-style: variaveis.$fonte-style-normal;
-  font-weight: variavel.$fonte-regular;
+  font-style: normal;
+  font-weight: 400;
   line-height: 34.5px;
   margin-top: 100px;
 }
@@ -116,11 +114,11 @@ p {
 
 .servicos h3 {
   text-align: center;
-  color: variaveis.$cor-branca;
+  color: #FFF;
   font-family: Inter;
   font-size: 24px;
-  font-style: variaveis.$fonte-style-normal;
-  font-weight: variavel.$fonte-regular;
+  font-style: normal;
+  font-weight: 400;
   margin-top: 12px;
 }
 
@@ -162,13 +160,14 @@ p {
 .dados {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   gap: 40px;
 }
 
-.dados contato {
+.dados form {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .form-control {

@@ -158,12 +158,13 @@ p{
 .dados {
    display: flex;
    flex-direction: row;
-   justify-content: center;
+   justify-content: space-around;
    gap: 40px;
  }
- .dados contato {
+ .dados form {
    display: flex;
    flex-direction: column;
+   align-items: flex-start;
  }
  .form-control{
    width: 300px;
