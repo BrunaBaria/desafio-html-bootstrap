@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+h2 {
+  font-family: "Orelega One";
+  color: #007BFF;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 47px;
+}
+
+p {
+  font-family: "Inter";
+  color: #6C757D;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 47px;
+}
+
+.rodape {
+  color: #FFF;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Coda;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.fundosservicos {
+  background-color: #6C757D;
+  color: #FFF;
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+  margin: 30px;
+  border-radius: 20px;
+  height: 240px;
+  width: 300px;
+}
+
+.Sobre {
+  width: 1440px;
+  height: 602px;
+  flex-shrink: 0;
+}
+
+.Sobre h2 {
+  color: #007BFF;
+  text-align: center;
+  font-family: Orelega One;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 47px;
+}
+
+.sobre p {
+  color: #6C757D;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34.5px;
+  margin-top: 100px;
+}
+
+.descricao {
+  display: flex;
+  padding: 100px;
+  padding-top: 1px;
+}
+
+.descricao p:first-of-type {
+  text-align: center;
+  padding: 20px;
+  height: 50%;
+}
+
+.servicos ul {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  list-style-type: none;
+  flex-direction: row;
+  padding: 18px 119px 14px 118px;
+  width: 1200px;
+  gap: 28px;
+  align-items: center;
+  margin-left: 75px;
+  object-fit: contain;
+}
+
+.servicos ul li {
+  border-radius: 28px;
+  background: #6C757D;
+  height: 220px;
+  width: 220px;
+}
+
+.servicos h3 {
+  text-align: center;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+.servicos ul li:nth-child(1) {
+  padding: 25px 43px 69px 43px;
+}
+
+.servicos ul li:nth-child(2) {
+  padding: 14px 33px 61px 33px;
+}
+
+.servicos ul li:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  padding: 41px 37px 36px 37px;
+}
+
+.servicos ul li:nth-child(4) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  padding: 25px 12px 50px 16px;
+}
+
+.servicos ul li:nth-child(5) {
+  padding: 4px 24px 66px 25px;
+}
+
+.agendamento h2 {
+  margin-top: 50px;
+  margin-block-end: 30px;
+}
+
+.dados {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.dados form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-control {
+  width: 300px;
+}
+
+.horarios td:last-child {
+  text-align: end;
+}
+
+.table-secondary th:last-child {
+  text-align: end;
+}
+
+/*# sourceMappingURL=style.scss.map */
