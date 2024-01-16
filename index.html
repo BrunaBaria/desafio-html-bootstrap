@@ -80,30 +80,27 @@
             </ul>
     </section>
     <section class="agendamento">
-            <h2>Agende seu atendimento!</h2>
-                <div class="d-flex ms-5 mx-5 w-6 p-2">
-                    <div class="row">
-                        <div class="col-1">
-                            <form action="">
-                                <label for="nome">Nome Completo</label>
-                                <input type="text" name="nome" id="nome" class="form-control" placeholder="Username">
+        <h2>Agende seu atendimento!</h2>
+            <div class="dados">
+                <div>
+                    <form action="" class="contato">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" name="nome" id="nome" class="form-control" placeholder="Username">
+
+                        <label for="telefone">Celular</label>
+                        <input type="tel" name="telefone" id="telefone" placeholder="(xx) x xxxx-xxxx">
+
+                        <label for="atendimento">Tipo de atendimento</label>
+                        <input type="checkbox" name="banho" id="banho"> Banho
+                        <input type="checkbox" name="tosa" id="tosa"> Tosa
+                        <input type="checkbox" name="consulta" id="consulta"> Consulta
+                        <input type="checkbox" name="adocao" id="adocao"> Adoção
+                        <input type="checkbox" name="creche" id="creche"> Creche
         
-                                <label for="telefone">Celular</label>
-                                <input type="tel" name="telefone" id="telefone" placeholder="(xx) x xxxx-xxxx">
-        
-                                <label for="atendimento">Tipo de atendimento</label>
-                                <input type="checkbox" name="banho" id="banho"> Banho
-                                <input type="checkbox" name="tosa" id="tosa"> Tosa
-                                <input type="checkbox" name="consulta" id="consulta"> Consulta
-                                <input type="checkbox" name="adocao" id="adocao"> Adoção
-                                <input type="checkbox" name="creche" id="creche"> Creche
-        
-                                <input type="submit" value="Enviar"  class="btn btn-primary mt-3">
-                            </form>
-                        </div>
-                    
+                        <input type="submit" value="Enviar"  class="btn btn-primary mt-3">
+                    </form>
                 </div>
-            <div class="col-2 w-50 ms-1 my-5">
+                <div class="table-horarios">
                 <table class="table table-bordered">
                     <thead class="table-secondary">
                         <tr>
@@ -134,9 +131,8 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
-                </div>
-                
+                </div>  
+            </div>    
     </section>
 <footer class="bg-dark text-center d-flex justify-content-around mt-5">
     <p class="rodape mt-3">

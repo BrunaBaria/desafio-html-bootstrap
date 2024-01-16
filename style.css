@@ -91,7 +91,7 @@ p{
 
  .servicos ul{
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center;
     flex-flow:wrap;
     list-style-type: none;
     flex-direction: row;
@@ -100,12 +100,13 @@ p{
     gap: 28px;
     align-items: center;
     margin-left: 75px;
+    object-fit: contain;
  }
  .servicos ul li{
-    border-radius: 28px;
-    background: #6C757D;
-    height:220px;
-    width: 220px;
+   border-radius: 28px;
+   background: #6C757D;
+   height:220px;
+   width: 220px;
     
  }
 
@@ -116,11 +117,10 @@ p{
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 12px;
  }
 
- .servicos ul li:nth-child(1){
-    
+ .servicos ul li:nth-child(1){  
     padding: 25px 43px 69px 43px;
   
  }
@@ -129,23 +129,44 @@ p{
 
  }
  .servicos ul li:nth-child(3){
-    padding: 41px 37px 36px 37px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   object-fit: contain;
+   padding: 41px 37px 36px 37px;
 
  }
 
  .servicos ul li:nth-child(4){
-    padding: 2px 12px 50px 16px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   object-fit: contain;
+   padding: 25px 12px 50px 16px;
 
  }
  .servicos ul li:nth-child(5){
     padding: 4px 24px 66px 25px;
-
  }
-
  .agendamento h2{
-    margin-top: 50px;
-    margin-block-end: 30px;
+   margin-top: 50px;
+   margin-block-end: 30px;
 
+}
+.dados {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 40px;
+ }
+ .dados contato {
+   display: flex;
+   flex-direction: column;
+ }
+ .form-control{
+   width: 300px;
  }
 
  .horarios td:last-child{
